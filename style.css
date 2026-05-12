@@ -1710,8 +1710,8 @@ section{
 
     .hero-title{
 
-        /* 80px صريحة بدون clamp */
-        font-size:80px !important;
+        /* 240px = 80 × 3 */
+        font-size:240px !important;
 
         letter-spacing:1px;
 
@@ -1719,13 +1719,11 @@ section{
 
         white-space:normal !important;
 
-        line-height:1.1;
+        line-height:1.05;
 
-        /* يظهر فوق كل الخلفيات */
         position:relative;
         z-index:20;
 
-        /* يمنع الخطوط من الاختفاء */
         -webkit-text-fill-color:var(--white);
         color:var(--white);
 
@@ -1740,9 +1738,9 @@ section{
 
     .hero-text{
 
-        font-size:22px !important;
+        font-size:66px !important;
 
-        line-height:2.2;
+        line-height:2;
 
         position:relative;
         z-index:20;
@@ -1752,7 +1750,7 @@ section{
 
     .tag{
 
-        font-size:16px !important;
+        font-size:48px !important;
 
         position:relative;
         z-index:20;
@@ -1766,7 +1764,7 @@ section{
 
     .stat h3{
 
-        font-size:58px !important;
+        font-size:174px !important;
 
         position:relative;
         z-index:20;
@@ -1774,7 +1772,7 @@ section{
 
     .stat p{
 
-        font-size:18px !important;
+        font-size:54px !important;
 
         position:relative;
         z-index:20;
@@ -1784,7 +1782,7 @@ section{
 
     .section-title{
 
-        font-size:52px !important;
+        font-size:156px !important;
 
         position:relative;
         z-index:20;
@@ -1796,7 +1794,7 @@ section{
 
     .section-desc{
 
-        font-size:19px !important;
+        font-size:57px !important;
 
         line-height:2;
 
@@ -1806,7 +1804,7 @@ section{
 
     .mini-title{
 
-        font-size:17px !important;
+        font-size:51px !important;
 
         position:relative;
         z-index:20;
@@ -1821,7 +1819,7 @@ section{
 
     .card h2{
 
-        font-size:32px !important;
+        font-size:96px !important;
 
         position:relative;
         z-index:20;
@@ -1829,7 +1827,7 @@ section{
 
     .card p{
 
-        font-size:19px !important;
+        font-size:57px !important;
 
         line-height:2;
 
@@ -1841,7 +1839,7 @@ section{
 
     .about-title{
 
-        font-size:52px !important;
+        font-size:156px !important;
 
         position:relative;
         z-index:20;
@@ -1849,7 +1847,7 @@ section{
 
     .about-text{
 
-        font-size:19px !important;
+        font-size:57px !important;
 
         line-height:2.2;
 
@@ -1861,7 +1859,7 @@ section{
 
     #founder .about-title{
 
-        font-size:52px !important;
+        font-size:156px !important;
 
         position:relative;
         z-index:20;
@@ -1869,7 +1867,7 @@ section{
 
     #founder .about-text{
 
-        font-size:19px !important;
+        font-size:57px !important;
 
         line-height:2.2;
 
@@ -1890,11 +1888,12 @@ section{
 
     #founder .feature span{
 
-        font-size:18px !important;
+        font-size:54px !important;
     }
 
     .btn{
-        font-size:17px !important;
+        font-size:51px !important;
+        padding:30px 50px;
     }
 
     /* --- CONTACT --- */
@@ -1905,7 +1904,7 @@ section{
 
     .contact-card-item h3{
 
-        font-size:28px !important;
+        font-size:84px !important;
 
         position:relative;
         z-index:20;
@@ -1913,7 +1912,7 @@ section{
 
     .contact-card-item p{
 
-        font-size:17px !important;
+        font-size:51px !important;
 
         position:relative;
         z-index:20;

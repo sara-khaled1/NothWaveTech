@@ -649,7 +649,6 @@ body{
 
     line-height:1;
 
-    /* فوق كل الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -700,7 +699,6 @@ body{
 
     color:var(--text-light);
 
-    /* فوق كل الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -721,7 +719,6 @@ body{
 
     margin-top:50px;
 
-    /* فوق كل الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -772,7 +769,6 @@ body{
 
     flex-wrap:wrap;
 
-    /* فوق كل الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -808,7 +804,6 @@ section{
 
     margin-bottom:70px;
 
-    /* فوق كل الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -851,7 +846,6 @@ section{
 
     -webkit-text-fill-color:transparent;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -865,10 +859,11 @@ section{
     margin:auto;
 
     line-height:2;
-font-size: 30px;
+
+    font-size:30px;
+
     color:var(--text-muted);
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -982,7 +977,6 @@ font-size: 30px;
 
     font-size:28px;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:2;
 }
@@ -993,7 +987,6 @@ font-size: 30px;
 
     color:var(--text-light);
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:2;
 }
@@ -1041,7 +1034,6 @@ font-size: 30px;
 
     -webkit-text-fill-color:transparent;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -1060,7 +1052,6 @@ font-size: 30px;
 
     font-size:18px;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
@@ -1080,13 +1071,9 @@ font-size: 30px;
 
     margin-top:35px;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
-
-
-
 
 .feature{
 
@@ -1110,8 +1097,6 @@ font-size: 30px;
     color:var(--primary);
 }
 
-
-
 /* =========================
    FOUNDER SECTION
 ========================= */
@@ -1119,8 +1104,6 @@ font-size: 30px;
 #founder{
     position:relative;
 }
-
-/* WRAPPER */
 
 #founder .about-wrapper{
 
@@ -1136,13 +1119,9 @@ font-size: 30px;
     text-align:center;
 }
 
-/* CONTENT */
-
 #founder .about-content{
     width:100%;
 }
-
-/* TITLE */
 
 #founder .about-title{
 
@@ -1161,7 +1140,6 @@ font-size: 30px;
     text-shadow:
     0 0 10px rgba(255,255,255,.08);
 
-    /* تحسين وضوح العربي */
     font-family:
     'IBM Plex Sans Arabic',
     sans-serif;
@@ -1172,12 +1150,9 @@ font-size: 30px;
 
     text-rendering:geometricPrecision;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
-
-/* TEXT */
 
 #founder .about-text{
 
@@ -1191,12 +1166,9 @@ font-size: 30px;
 
     color:var(--text-light);
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
-
-/* FEATURES */
 
 #founder .about-features{
 
@@ -1211,12 +1183,9 @@ font-size: 30px;
 
     margin-top:45px;
 
-    /* فوق الخلفيات */
     position:relative;
     z-index:10;
 }
-
-/* FEATURE CARD */
 
 #founder .feature{
 
@@ -1238,8 +1207,6 @@ font-size: 30px;
     transition:.4s ease;
 }
 
-/* HOVER */
-
 #founder .feature:hover{
 
     transform:translateY(-6px);
@@ -1250,16 +1217,12 @@ font-size: 30px;
     rgba(125,249,255,.2);
 }
 
-/* ICON */
-
 #founder .feature i{
 
     color:var(--primary);
 
     font-size:18px;
 }
-
-/* TEXT */
 
 #founder .feature span{
 
@@ -1279,8 +1242,6 @@ font-size: 30px;
     padding:120px 20px 70px;
 }
 
-/* CONTAINER */
-
 .contact-container{
 
     max-width:1100px;
@@ -1290,13 +1251,9 @@ font-size: 30px;
     text-align:center;
 }
 
-/* HEADER */
-
 .contact-header{
     margin-bottom:60px;
 }
-
-/* GRID */
 
 .contact-grid{
 
@@ -1307,8 +1264,6 @@ font-size: 30px;
 
     gap:25px;
 }
-
-/* CARD */
 
 .contact-card-item{
 
@@ -1332,8 +1287,6 @@ font-size: 30px;
     transition:.45s ease;
 }
 
-/* HOVER */
-
 .contact-card-item:hover{
 
     transform:
@@ -1345,8 +1298,6 @@ font-size: 30px;
     background:
     rgba(125,249,255,.04);
 }
-
-/* GLOW */
 
 .contact-card-item::before{
 
@@ -1368,8 +1319,6 @@ font-size: 30px;
 
     border-radius:50%;
 }
-
-/* ICON */
 
 .contact-icon{
 
@@ -1403,8 +1352,6 @@ font-size: 30px;
     font-size:28px;
 }
 
-/* TITLE */
-
 .contact-card-item h3{
 
     position:relative;
@@ -1417,8 +1364,6 @@ font-size: 30px;
 
     font-size:22px;
 }
-
-/* TEXT */
 
 .contact-card-item p{
 
@@ -1459,12 +1404,10 @@ font-size: 30px;
     backdrop-filter:blur(12px);
 }
 
-/* ICON */
-
 .license-icon{
 
-    width:60px;
-    height:60px;
+    width:65px;
+    height:65px;
 
     border-radius:18px;
 
@@ -1478,6 +1421,8 @@ font-size: 30px;
 
     border:
     1px solid rgba(255,255,255,.05);
+
+    overflow:hidden;
 }
 
 .license-icon i{
@@ -1487,7 +1432,14 @@ font-size: 30px;
     font-size:24px;
 }
 
-/* CONTENT */
+.license-icon img{
+
+    width:100px;
+
+    height:70px;
+
+    object-fit:contain;
+}
 
 .license-content{
     text-align:right;
@@ -1503,6 +1455,22 @@ font-size: 30px;
 }
 
 .license-content p{
+
+    color:var(--text-muted);
+
+    font-size:13px;
+}
+
+.license-info h3{
+
+    color:var(--white);
+
+    margin-bottom:5px;
+
+    font-size:16px;
+}
+
+.license-info p{
 
     color:var(--text-muted);
 
@@ -1555,60 +1523,6 @@ font-size: 30px;
     opacity:1;
 
     transform:translateY(0);
-}
-
-/* =========================
-   LICENSE BADGE
-========================= */
-
-.license-icon{
-
-    width:65px;
-    height:65px;
-
-    border-radius:18px;
-
-    display:flex;
-
-    justify-content:center;
-    align-items:center;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    overflow:hidden;
-}
-
-/* IMAGE */
-
-.license-icon img{
-
-    width:100px;
-
-    height:70px;
-
-    object-fit:contain;
-}
-
-/* TEXT */
-
-.license-info h3{
-
-    color:var(--white);
-
-    margin-bottom:5px;
-
-    font-size:16px;
-}
-
-.license-info p{
-
-    color:var(--text-muted);
-
-    font-size:13px;
 }
 
 /* =========================
@@ -1665,7 +1579,7 @@ font-size: 30px;
 }
 
 /* =========================
-   MOBILE — إصلاح الخطوط
+   MOBILE
 ========================= */
 
 @media(max-width:768px){
@@ -1698,10 +1612,6 @@ font-size: 30px;
         justify-content:center;
     }
 
-    .nav-links a{
-        font-size:17px;
-    }
-
     /* --- HERO --- */
 
     .hero{
@@ -1710,16 +1620,11 @@ font-size: 30px;
 
     .hero-title{
 
-        /* يتكيف مع عرض الشاشة تلقائي */
-        font-size:clamp(60px,18vw,140px) !important;
-
-        letter-spacing:1px;
-
         flex-wrap:wrap;
 
-        white-space:normal !important;
+        white-space:normal;
 
-        line-height:1.05;
+        line-height:1.15;
 
         position:relative;
         z-index:20;
@@ -1738,8 +1643,6 @@ font-size: 30px;
 
     .hero-text{
 
-        font-size:clamp(20px,5.5vw,40px) !important;
-
         line-height:2;
 
         position:relative;
@@ -1748,41 +1651,15 @@ font-size: 30px;
         padding:0 8px;
     }
 
-    .tag{
-
-        font-size:clamp(14px,4vw,22px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
     /* --- STATS --- */
 
     .stats{
         gap:35px;
     }
 
-    .stat h3{
-
-        font-size:clamp(48px,14vw,90px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
-    .stat p{
-
-        font-size:clamp(16px,4.5vw,26px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
     /* --- SECTIONS --- */
 
     .section-title{
-
-        font-size:clamp(40px,12vw,80px) !important;
 
         position:relative;
         z-index:20;
@@ -1792,88 +1669,21 @@ font-size: 30px;
         -webkit-text-fill-color:transparent;
     }
 
-    .section-desc{
-
-        font-size:clamp(17px,5vw,30px) !important;
-
-        line-height:2;
-
-        position:relative;
-        z-index:20;
-    }
-
-    .mini-title{
-
-        font-size:clamp(14px,4vw,22px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
     /* --- CARDS --- */
 
     .card{
-
         padding:35px 25px;
-    }
-
-    .card h2{
-
-        font-size:clamp(28px,8vw,52px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
-    .card p{
-
-        font-size:clamp(17px,5vw,30px) !important;
-
-        line-height:2;
-
-        position:relative;
-        z-index:20;
     }
 
     /* --- ABOUT --- */
 
     .about-title{
 
-        font-size:clamp(38px,11vw,72px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
-    .about-text{
-
-        font-size:clamp(17px,5vw,30px) !important;
-
-        line-height:2.2;
-
         position:relative;
         z-index:20;
     }
 
     /* --- FOUNDER --- */
-
-    #founder .about-title{
-
-        font-size:clamp(38px,11vw,72px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
-    #founder .about-text{
-
-        font-size:clamp(17px,5vw,30px) !important;
-
-        line-height:2.2;
-
-        position:relative;
-        z-index:20;
-    }
 
     #founder .about-features{
         gap:12px;
@@ -1886,36 +1696,10 @@ font-size: 30px;
         justify-content:center;
     }
 
-    #founder .feature span{
-
-        font-size:clamp(16px,4.5vw,26px) !important;
-    }
-
-    .btn{
-        font-size:clamp(16px,4.5vw,26px) !important;
-        padding:20px 40px;
-    }
-
     /* --- CONTACT --- */
 
     .contact-grid{
         grid-template-columns:1fr;
-    }
-
-    .contact-card-item h3{
-
-        font-size:clamp(24px,7vw,44px) !important;
-
-        position:relative;
-        z-index:20;
-    }
-
-    .contact-card-item p{
-
-        font-size:clamp(16px,4.5vw,26px) !important;
-
-        position:relative;
-        z-index:20;
     }
 
     /* --- LICENSE --- */
@@ -1933,26 +1717,6 @@ font-size: 30px;
         text-align:center;
     }
 
-    .license-content h3{
-
-        font-size:17px;
-    }
-
-    .license-content p{
-
-        font-size:14px;
-    }
-
-    .license-info h3{
-
-        font-size:17px;
-    }
-
-    .license-info p{
-
-        font-size:14px;
-    }
-
     /* --- FOOTER --- */
 
     .footer-modern{
@@ -1960,8 +1724,6 @@ font-size: 30px;
         justify-content:center;
 
         text-align:center;
-
-        font-size:14px;
     }
 
     /* --- CYBER LINES --- */
@@ -1980,8 +1742,6 @@ font-size: 30px;
         width:700px;
         height:700px;
     }
-
-    /* --- LICENCE BADGE --- */
 
     .license-badge{
 

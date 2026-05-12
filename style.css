@@ -634,10 +634,10 @@ body{
 
     gap:10px;
 
-    white-space:nowrap;
+    white-space:normal;
 
     font-size:
-    clamp(50px,9vw,130px);
+    clamp(50px,13vw,130px);
 
     font-weight:200;
 
@@ -1708,7 +1708,7 @@ section{
         padding:180px 20px 100px;
     }
 
-    .hero-title{
+    body .hero-title{
 
         /* يتكيف مع عرض الشاشة تلقائي */
         font-size:clamp(60px,18vw,140px) !important;
